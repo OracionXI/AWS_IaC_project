@@ -2,7 +2,7 @@
 
 set -e 
 
-cd /mnt/d/STUDY/projects/remote\ server/enviroments/dev
+cd ../enviroments/dev
 
 terraform init
 terraform plan -var-file="terraform.tfvars" -out=tfplan
