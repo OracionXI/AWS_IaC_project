@@ -32,10 +32,6 @@ variable "env" {
   type        = string
 }
 
-variable "my_ip" {
-  type = string
-}
-
 # Variables for S3 bucket module
 variable "bucket_name" {
   description = "The name of the S3 bucket to create."
@@ -66,5 +62,9 @@ variable "availability_zone" {
 }
 
 variable "name_prefix" {
+  type = string
+}
+
+variable "my_ip" {
   type = string
 }

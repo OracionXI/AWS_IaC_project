@@ -4,6 +4,7 @@ module "vpc_dev" {
   public_subnet_cidr  = var.public_subnet_cidr
   availability_zone   = var.availability_zone
   name_prefix         = var.name_prefix
+  my_ip               = var.my_ip
 }
 
 module "ec2_dev" {
