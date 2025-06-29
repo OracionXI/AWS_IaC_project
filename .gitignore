@@ -6,7 +6,7 @@
 crash.log
 
 # Sensitive variable overrides
-*terraform.tfvars
+terraform.tfvars
 *.tfvars.json
 
 # Terraform plan files

@@ -1,4 +1,5 @@
 # AWS IaC Project 📦🚀
+A project primarily focused on real-world cloud architecture and DevOps system design patterns.
 
 <br>
 
@@ -20,6 +21,23 @@
 
 <br>
 
+## 2️⃣ Versions:
+
+### v1.^.^ :
+
+- v1.0.0: Base infrastructure build up using terraform (EC2, VPC, S3)
+- v1.1.0: Private subnet added with separate router
+
+<br>
+
+## 3️⃣ Project Diagram (V1.1.0):
+
+<img src="/public/v1.1.0.PNG" alt="Project Layout"/>
+
+<br>
+
+## 4️⃣ Code Run:
+
 ### For running the code,
 
 - Rename the example.tf to provider.tf
@@ -34,7 +52,4 @@ bash run.sh
 
 <br>
 
-## 2️⃣ Project Diagram (V1.0.0):
-
-<img src="/public/layout.PNG" alt="Project Layout"/>
-
+### This project is still on development...
